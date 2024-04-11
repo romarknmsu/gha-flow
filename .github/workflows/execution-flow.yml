@@ -83,4 +83,4 @@ jobs:
       - name: Output Information
         run: |
           echo "Somethig went wrong"
-          echo "{{ gitub }}"
+          echo "{{ toJSON(gitub) }}"
